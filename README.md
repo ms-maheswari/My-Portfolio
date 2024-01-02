@@ -49,7 +49,7 @@ Contact form to get in touch with me.
 
 2. Navigate to the project directory:
 
-   cd todo-list-react
+   cd portfolio
 
 3. Install dependencies:
 
