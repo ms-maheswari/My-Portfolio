@@ -1,0 +1,50 @@
+import Codechef from '../assets/progress/Codechef.png'
+import ccicon from '../assets/progress/ccicon.png'
+import Leetcode from '../assets/progress/Leetcode.png'
+import leeticon from '../assets/progress/leeticon.png'
+import Geeks from '../assets/progress/Geeks.png'
+import gfgicon from '../assets/progress/gfgicon.png'
+import Github from '../assets/progress/Github.png'
+import giticon from '../assets/progress/giticon.png'
+import Linkedin from '../assets/progress/Linkedin.png'
+import linkedicon from '../assets/progress/linkedicon.png'
+
+export const data=[
+    
+    {
+        id:1,
+        name:"CodeChef",
+        image:Codechef,
+        link:"https://www.codechef.com/users/mahes7439",
+        icon: ccicon,
+    },
+    {
+        id:2,
+        name:"LeetCode",
+        image:Leetcode,
+        link:"https://leetcode.com/mahes7439",
+        icon: leeticon,
+    },
+    {
+        id:3,
+        name:"Geeks For Geeks",
+        image:Geeks,
+        link:"https://auth.geeksforgeeks.org/user/msmaheswari",
+        icon: gfgicon,
+    },
+    {
+        id:4,
+        name:"Github",
+        image:Github,
+        link:"https://github.com/ms-maheswari",
+        icon: giticon,
+    },
+    {
+        id:5,
+        name:"LinkedIn",
+        image:Linkedin,
+        link:"https://linkedin.com/in/maheswari-m-00b53a247",
+        icon: linkedicon,
+    }
+
+]

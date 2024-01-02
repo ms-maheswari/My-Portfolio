@@ -1,25 +1,22 @@
 import React from 'react';
 import { data } from "../data/data.js";
 
-
 const Work = () => {
 
-    // projects file
     const project = data;
-    //setProject(data);
-  
+
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full min-h-screen  text-gray-300 bg-[#0a192f] border-b-4 border-#708090-100 py-12'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+        <div className='lg:pt-20 '>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6 text-xl'> These are the projects I have done so far </p>
         </div>
 
 {/* container for projects */}
-<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+<div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4 ">
           
           {/* Gird Item */}
           {project.map((item, index) => (
