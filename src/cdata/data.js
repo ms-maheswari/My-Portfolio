@@ -24,7 +24,7 @@ export const data=[
         id:2,
         name:"LeetCode",
         image:Leetcode,
-        link:"https://leetcode.com/mahes7439",
+        link:"https://leetcode.com/ms-maheswari",
         icon: leeticon,
     },
     {
@@ -38,7 +38,7 @@ export const data=[
         id:4,
         name:"Coding Ninjas",
         image:Ninjas,
-        link:"https://www.codingninjas.com/studio/profile/0b5455c1-3b3e-4483-8d8e-76073146c86c",
+        link:"https://www.codingninjas.com/studio/profile/ms_maheswari",
         icon: cnicon,
     },
 
@@ -53,7 +53,7 @@ export const data=[
         id:6,
         name:"LinkedIn",
         image:Linkedin,
-        link:"https://linkedin.com/in/maheswari-m-00b53a247",
+        link:"https://linkedin.com/in/ms-maheswari",
         icon: linkedicon,
     }
 
