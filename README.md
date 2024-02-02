@@ -45,7 +45,7 @@ Contact form to get in touch with me.
 
 1. Clone the repository:
    
-   git clone https://github.com/ms-maheswari/My-Portfolio
+
 
 2. Navigate to the project directory:
 
