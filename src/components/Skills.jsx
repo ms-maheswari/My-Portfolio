@@ -1,5 +1,4 @@
 import React from 'react';
-
 import HTML from '../assets/skills/html.png';
 import CSS from '../assets/skills/css.png';
 import JavaScript from '../assets/skills/javascript.png';
@@ -18,7 +17,7 @@ const Skills = () => {
     <div className='max-w-[1000px] mx-auto p-4'>
       <div>
         <p className='text-4xl font-bold inline border-b-4 border-pink-600'>Skills & Tools</p>
-        <p className='py-4 text-xl'>These are the technologies I have worked with</p>
+        <p className='py-4 mt-2text-xl'>These are the technologies I have worked with</p>
       </div>
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 text-center py-8'>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>

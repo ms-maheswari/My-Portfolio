@@ -48,12 +48,12 @@ const Contact = () => {
   };
 
   return (
-    <div className='w-full min-h-screen bg-[#0a192f] flex justify-center items-center py-14 px-auto'>
+    <div className='w-full h-full bg-[#0a192f] flex justify-center items-center py-24 px-auto'>
       <div name='contact' className='w-full bg-[#0a192f] flex justify-center items-center'>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full px-4'>
           <div className='py-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-            <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - mahes7439@gmail.com</p>
+            <p className='text-gray-300 py-4'>// Shoot me an email - mahes7439@gmail.com</p>
             {formError && <p className='text-red-500'>{formError}</p>}
           </div>
           <div className='py-2'>
@@ -70,7 +70,6 @@ const Contact = () => {
               <textarea className='bg-[#ccd6f6] p-2 focus:border-gray-500 focus:outline-none border-2 rounded-md' name='message' rows='6' placeholder='Message'></textarea>
             </div>
           </div>
-
           <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center' type='submit' value='Send'>
             Send
           </button>

@@ -45,6 +45,12 @@ const Navbar = () => {
             className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'about' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`}onClick={()=> handleMenuItemClick('about')}>👤 About</Link>
           </li>
            <li className='mx-4 my-6 md:my-0'>
+            <Link to='education'
+            smooth='true'
+            duration={500}
+            className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'education' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`}onClick={()=> handleMenuItemClick('education')}>📚 Education</Link>
+          </li>
+           <li className='mx-4 my-6 md:my-0'>
             <Link to='skills'
             smooth='true'
             duration={500}
@@ -57,10 +63,10 @@ const Navbar = () => {
             className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'work' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`}onClick={()=> handleMenuItemClick('work')}>💼 Works</Link>
           </li>
            <li className='mx-4 my-6 md:my-0'>
-            <Link to='progress'
-            smooth='true'
+            <Link to='internship'
+             smooth='true'
             duration={500}
-            className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'progress' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`} onClick={()=> handleMenuItemClick('progress')}>📈 Progress</Link>
+            className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'internship' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`}onClick={()=> handleMenuItemClick('internship')}>💼 Internship</Link>
           </li>
            <li className='mx-4 my-6 md:my-0'>
             <Link to='contact' 
@@ -68,10 +74,8 @@ const Navbar = () => {
             duration={500}
             className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'contact' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`} onClick={()=> handleMenuItemClick('contact')}>✉️ Contact</Link>
           </li>
-          {/* <button className='bg-cyan-400 text-white duration-500 px-6 py-2  my-6 md:my-0 hover:bg-cyan-500 rounded'>Mahes</button> */}
         </ul>
       </nav>
-      
     </div>
   )
 }
