@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link to='internship'
              smooth='true'
             duration={500}
-            className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'internship' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`}onClick={()=> handleMenuItemClick('internship')}>💼 Internship</Link>
+            className={`hover:text-cyan-500 duration-500 text-gray-600 ${activeMenu === 'internship' ? 'text-xl text-cyan-600 font-bold border-b-4 border-red-500' : ''}`}onClick={()=> handleMenuItemClick('internship')}>📋 Internship</Link>
           </li>
            <li className='mx-4 my-6 md:my-0'>
             <Link to='contact' 
