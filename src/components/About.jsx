@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <TechProfile />
+      <TechProfile className='overflow-none'   />
     </div>
   );
 };

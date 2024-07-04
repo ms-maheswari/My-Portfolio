@@ -2,14 +2,14 @@ import form from '../assets/projects/form.png'
 import vegetable from '../assets/projects/vegetable.png'
 import stack from '../assets/projects/stack.png'
 import todo from '../assets/projects/todo.png'
-
+import quotes from '../assets/projects/quotes.png'
 export const data=[
     {
         id:1,
-        name:"Crud Operation using HTML, CSS, JS with local storage",
-        image:form,
-        github:"https://github.com/ms-maheswari/Crud-Operation.git",
-        live:"https://crud-operation-roan.vercel.app/",
+        name:"Quotes Generator using API",
+        image:quotes,
+        github:"https://github.com/ms-maheswari/Quotes-Generator",
+        live:"https://quotes-generator-nu-two.vercel.app/"
     },
     {
         id:2,
@@ -31,5 +31,12 @@ export const data=[
         image:todo,
         github:"https://github.com/ms-maheswari/To-do-list",
         live:"https://to-do-list-woad-ten-76.vercel.app/"
+    },
+    {
+        id:5,
+        name:"Crud Operation using HTML, CSS, JS with local storage",
+        image:form,
+        github:"https://github.com/ms-maheswari/Crud-Operation.git",
+        live:"https://crud-operation-roan.vercel.app/",
     }
 ]

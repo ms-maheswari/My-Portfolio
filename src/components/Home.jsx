@@ -18,9 +18,10 @@ const Home = () => {
         </p>
         <div>
           <button className='text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            <Link to='work' smooth={true} duration={500}>
-              View Work
-            </Link>
+            {/* <Link to='work' smooth={true} duration={500}>
+              Hire me
+            </Link> */}
+            <a href ="https://drive.google.com/file/d/1Y2mgX2Pon05tV2vhzonXiQHosg0m0LHb/view?usp=sharing">Resume</a>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3' />
             </span>
