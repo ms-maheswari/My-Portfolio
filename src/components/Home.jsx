@@ -11,7 +11,7 @@ const Home = () => {
           MAHESWARI
         </h1>
         <h2 className='text-lg sm:text-6xl font-bold text-gray-200'>
-          I'm a Full Stack Developer.
+          I'm a Frontend Developer.
         </h2>
         <p className='text-gray-200 justify-center text-center py-4 max-w-[1000px] mx-auto text-base sm:text-lg'>
           Welcome to my corner of the web! 👋 I'm Maheswari, a passionate front-end web developer dedicated to crafting engaging and user-centric digital experiences. I specialize in building captivating user interfaces using the power of HTML, CSS, JavaScript, React, and Tailwind CSS. From concept to execution, I merge creativity with functionality to bring ideas to life on the web.
