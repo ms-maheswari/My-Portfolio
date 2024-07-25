@@ -29,7 +29,7 @@ const Education = () => {
                             Batch : 2021 - 2025
                             </p>
                             <p className="mb-3 ">
-                                CGPA : 8.3 (Upto 4th semester)
+                                CGPA : 8.5 (Upto 5th semester)
                                 </p>
                                 </div>
             </li>
@@ -50,7 +50,7 @@ const Education = () => {
                                     Batch : 2021
                                     </p>
                                     <p className="mb-3">
-                                        Percentage : 91%
+                                        Percentage : 92%
                                         </p>
                                         </div>
             </li>
